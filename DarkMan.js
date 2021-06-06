@@ -73,7 +73,7 @@ DarkMan.on("guildMemberAdd", member => {
   if (!channel) return;
   const joinembed = new Discord.MessageEmbed()
     .setTitle(``)
-    .setAuthor(`Welcome Bot`, `https://media.discordapp.net/attachments/733743866334806177/851243095730946098/image0_1.gif`)
+    .setAuthor(`Welcome Bot`, `https://media.discordapp.net/attachments/733743866334806177/851245138869354516/icegif-87.gif`)
     .setColor("RANDOM")
     .setThumbnail(DarkMan)
     .addField(
