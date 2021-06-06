@@ -22,10 +22,10 @@ const listener = app.listen(process.env.PORT, () => {
 const Discord = require ("discord.js")
 const moment = require ("moment")
 const DarkMan = new Discord.Client();
-const prefix = "D!";
+const prefix = "k-";
 
 
-DarkMan.login("");
+DarkMan.login("ODE2MDAxMDY3NzczOTg0NzY4.YD0mNw.B_xxumX8eNnQ63WzGHwJI5RsGds");
 DarkMan.on("ready", async () => {
   console.log(`Logged in as ${DarkMan.user.username}!`);
   DarkMan.user.setStatus("ONLINE");
@@ -43,19 +43,19 @@ DarkMan.on("message", message => {
 if (message.content === prefix +"help") {
 const embed = new Discord.MessageEmbed()
 .setColor("BLACK")
-.setAuthor("Prefix [ D! ]","")
+.setAuthor("Prefix [ k- ]","")
 .setDescription(` 
 **
 ・┊welcome [change channel]
 ・┊left [change channel]
 **
 **[ invite ]**
-**[ click here ](https://discord.com/api/oauth2/authorize?client_id=743869029638471802&permissions=8&scope=bot)** 
+**[ click here ](https://discord.com/api/oauth2/authorize?client_id=816001067773984768&permissions=8&scope=bot)** 
 **[ support ]**
-**[ click here ](https://discord.gg/tstcyhgQeS)**
+**[ click here ](https://discord.gg/HzSQegy8UG)**
  `)
     
-    .setFooter(` Remix Bot ✨ | Coded by , DarkMan`, DarkMan.user.avatarURL)
+    .setFooter(` welcome bot ✨ | Coded by , KOKW`, DarkMan.user.avatarURL)
     .setURL("https://discord.gg/YSx9p3e7F8")
       
     message.channel.send(embed);
@@ -73,7 +73,7 @@ DarkMan.on("guildMemberAdd", member => {
   if (!channel) return;
   const joinembed = new Discord.MessageEmbed()
     .setTitle(``)
-    .setAuthor(`Welcome Bot`, `https://cdn.discordapp.com/avatars/828218881989935105/479953e51dadf4f38c5bc72c912193c5.webp?size=1024`)
+    .setAuthor(`Welcome Bot`, `https://media.discordapp.net/attachments/733743866334806177/851243095730946098/image0_1.gif`)
     .setColor("RANDOM")
     .setThumbnail(DarkMan)
     .addField(
@@ -111,7 +111,7 @@ DarkMan.on("guildMemberRemove", member => {
   if (!channel) return;
   const joinembed = new Discord.MessageEmbed()
     .setTitle(``)
-    .setAuthor(`Welcome Bot`, `https://cdn.discordapp.com/avatars/828218881989935105/479953e51dadf4f38c5bc72c912193c5.webp?size=1024`)
+    .setAuthor(`Welcome Bot`, `https://media.discordapp.net/attachments/755636694035857438/758974172658663424/20200923_140354.gif`)
     .setImage(
       "https://thumbs.gfycat.com/ChiefBiodegradableAmericanalligator-size_restricted.gif"
     )
@@ -159,7 +159,7 @@ DarkMan.on("guildMemberAdd", member => {
     .setFooter(`**${member.guild.name}**`)
     .setTimestamp()
     .setImage(
-      ""
+      "https://media.discordapp.net/attachments/733743866334806177/851245357362315305/source.gif"
     )
     .setFooter(`${member.guild.name}`)
     .setTimestamp();
