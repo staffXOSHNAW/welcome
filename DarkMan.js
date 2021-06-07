@@ -50,7 +50,7 @@ const embed = new Discord.MessageEmbed()
 ・┊left [change channel]
 **
 **[ invite ]**
-**[ click here ](https://discord.com/api/oauth2/authorize?client_id=816001067773984768&permissions=8&scope=bot)** 
+**[ click here ](https://discord.com/api/oauth2/authorize?client_id=851268159251284037&permissions=8&scope=bot)** 
 **[ support ]**
 **[ click here ](https://discord.gg/HzSQegy8UG)**
  `)
@@ -82,12 +82,12 @@ DarkMan.on("guildMemberAdd", member => {
     .addField(
       "**name** : ",
       `${member}
-    ◈ ━━━━━ ⸙ ━━━━━ ◈`
+    ◈ ━━━━ ⸙ ━━━━ ◈`
     )
     .addField(
       "**Welcome**",
       `Welcome to the server, ${member}
-    ◈ ━━━━━ ⸙ ━━━━━ ◈`
+    ◈ ━━━━ ⸙ ━━━━ ◈`
     )
     .addField(
       "**ID** :",
@@ -96,7 +96,7 @@ DarkMan.on("guildMemberAdd", member => {
     .addField(
       "**All Member**",
       `${member.guild.memberCount}
-      ◈ ━━━━━ ⸙ ━━━━━ ◈`
+      ◈ ━━━━ ⸙ ━━━━ ◈`
     )
     .addField("Server", `${member.guild.name}`, true)
     .setFooter(`**${member.guild.name}**`)
