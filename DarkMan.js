@@ -142,12 +142,12 @@ DarkMan.on("guildMemberAdd", member => {
     .addField(
       " name : ",
       `${member}
-    ◈ ━━━━━━ ⸙ ━━━━━━ ◈`
+    ◈ ━━━━━━ ⸙ ━━━━━━━ ◈`
     )
     .addField(
       "Welcome",
       `Welcome to the server, ${member}
-    ◈ ━━━━━━ ⸙ ━━━━━━ ◈`
+    ◈ ━━━━━━ ⸙ ━━━━━━━ ◈`
     )
     .addField(
       " User :",
@@ -156,7 +156,7 @@ DarkMan.on("guildMemberAdd", member => {
     .addField(
       "Your are the member",
       `${member.guild.memberCount}
-      ◈ ━━━━━━ ⸙ ━━━━━━ ◈`
+      ◈ ━━━━━━ ⸙ ━━━━━━━ ◈`
     )
     .addField("Server", `${member.guild.name}`, true)
     .setFooter(`**${member.guild.name}**`)
