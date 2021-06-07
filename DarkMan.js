@@ -25,7 +25,7 @@ const DarkMan = new Discord.Client();
 const prefix = "k-";
 
 
-DarkMan.login("");
+DarkMan.login("ODUxMzA3MTU2NjkwNjk4Mjgw.YL2Xkg.Zuqc42VIcr5DZAdRY_DzXxb_UfI");
 DarkMan.on("ready", async () => {
   console.log(`Logged in as ${DarkMan.user.username}!`);
   DarkMan.user.setStatus("ONLINE");
@@ -43,16 +43,16 @@ DarkMan.on("message", message => {
 if (message.content === prefix +"help") {
 const embed = new Discord.MessageEmbed()
 .setColor("BLACK")
-.setAuthor("Prefix [ k- ]","")
+.setAuthor("Prefix [ y- ]","")
 .setDescription(` 
 **
 ・┊welcome [change channel]
 ・┊left [change channel]
 **
 **[ invite ]**
-**[ click here ](https://discord.com/api/oauth2/authorize?client_id=851268159251284037&permissions=8&scope=bot)** 
+**[ click here ](https://discord.com/api/oauth2/authorize?client_id=851307156690698280&permissions=8&scope=bot)** 
 **[ support ]**
-**[ click here ](https://discord.gg/HzSQegy8UG)**
+**[ click here ](https://discord.gg/53FauKqj4W)**
  `)
     
     .setFooter(` welcome bot ✨ | Coded by , KOKW`, DarkMan.user.avatarURL)
