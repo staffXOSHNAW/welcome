@@ -22,7 +22,7 @@ const listener = app.listen(process.env.PORT, () => {
 const Discord = require ("discord.js")
 const moment = require ("moment")
 const DarkMan = new Discord.Client();
-const prefix = "k-";
+const prefix = "y-";
 
 
 DarkMan.login("ODUxMzA3MTU2NjkwNjk4Mjgw.YL2Xkg.Zuqc42VIcr5DZAdRY_DzXxb_UfI");
