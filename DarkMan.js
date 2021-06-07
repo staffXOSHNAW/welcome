@@ -75,7 +75,7 @@ DarkMan.on("guildMemberAdd", member => {
     .setTitle(``)
     .setAuthor(`Welcome Bot`, `https://media.discordapp.net/attachments/733743866334806177/851245138869354516/icegif-87.gif`)
   .setImage(
-      "https://media.discordapp.net/attachments/733743866334806177/851245138869354516/icegif-87.gif"
+      "https://media.discordapp.net/attachments/846461926476349440/846975837554606090/1622004832942933.gif"
     )
     .setColor("RANDOM")
     .setThumbnail(DarkMan)
@@ -116,7 +116,7 @@ DarkMan.on("guildMemberRemove", member => {
     .setTitle(``)
     .setAuthor(`Welcome Bot`, `https://media.discordapp.net/attachments/755636694035857438/758974172658663424/20200923_140354.gif`)
     .setImage(
-      "https://media.discordapp.net/attachments/733743866334806177/851244078472888320/received_2732867313663473.gif"
+      "https://media.discordapp.net/attachments/846461926476349440/851311184270852146/R5713527a28e801631666984505b86cde.gif"
     )
     .setColor("RANDOM")
     .setThumbnail(DarkMan)
