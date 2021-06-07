@@ -116,7 +116,7 @@ DarkMan.on("guildMemberRemove", member => {
     .setTitle(``)
     .setAuthor(`Welcome Bot`, `https://media.discordapp.net/attachments/755636694035857438/758974172658663424/20200923_140354.gif`)
     .setImage(
-      "https://thumbs.gfycat.com/ChiefBiodegradableAmericanalligator-size_restricted.gif"
+      "https://media.discordapp.net/attachments/733743866334806177/851244078472888320/received_2732867313663473.gif"
     )
     .setColor("RANDOM")
     .setThumbnail(DarkMan)
