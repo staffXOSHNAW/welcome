@@ -25,7 +25,7 @@ const DarkMan = new Discord.Client();
 const prefix = "k-";
 
 
-DarkMan.login("ODE2MDAxMDY3NzczOTg0NzY4.YD0mNw.B_xxumX8eNnQ63WzGHwJI5RsGds");
+DarkMan.login("ODUxMjY4MTU5MjUxMjg0MDM3.YL1zQA.o7Mu54kn5HpDRiLGnF3tAdAAqkQ");
 DarkMan.on("ready", async () => {
   console.log(`Logged in as ${DarkMan.user.username}!`);
   DarkMan.user.setStatus("ONLINE");
@@ -142,12 +142,12 @@ DarkMan.on("guildMemberAdd", member => {
     .addField(
       " name : ",
       `${member}
-    ◈ ━━━━━━━ ⸙ ━━━━━━━ ◈`
+    ◈ ━━━━━━ ⸙ ━━━━━━ ◈`
     )
     .addField(
       "Welcome",
       `Welcome to the server, ${member}
-    ◈ ━━━━━━━ ⸙ ━━━━━━━ ◈`
+    ◈ ━━━━━━ ⸙ ━━━━━━ ◈`
     )
     .addField(
       " User :",
@@ -156,7 +156,7 @@ DarkMan.on("guildMemberAdd", member => {
     .addField(
       "Your are the member",
       `${member.guild.memberCount}
-      ◈ ━━━━━━━ ⸙ ━━━━━━━ ◈`
+      ◈ ━━━━━━ ⸙ ━━━━━━ ◈`
     )
     .addField("Server", `${member.guild.name}`, true)
     .setFooter(`**${member.guild.name}**`)
